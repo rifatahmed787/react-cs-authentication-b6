@@ -12,22 +12,22 @@ const routes = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "/generator",
-        element: <Generator />
+        element: <Generator />,
       },
       {
         path: "/login",
-        element: <Login />
+        element: <Login />,
       },
       {
         path: "/signup",
-        element: <Signup />
-      }
-    ]
-  }
-])
+        element: <Signup />,
+      },
+    ],
+  },
+]);
 
 export default routes;
